@@ -27,6 +27,15 @@ interface PasswordValidator
 2. `composer install`
 3. `vendor/bin/phpunit` o `composer test`
 
+## Typescript
+
+1. Install [Node](http://nodejs.org/)
+2. Install NVM (Node Version Manager) [nvm for Linux/macOS](https://github.com/nvm-sh/nvm#installing-and-updating) or [nvm for Windows](https://github.com/coreybutler/nvm-windows#installation--upgrades)
+3. `nvm install` or `nvm install $(Get-Content .nvmrc)` if you are working on Windows
+4. `nvm use` or `nvm use $(Get-Content .nvmrc)` if you are working on Windows
+5. `npm install` or `yarn install`
+6. `npm test` or `yarn test`
+
 ## Javascript
 
 1. Install [Node](http://nodejs.org/)
