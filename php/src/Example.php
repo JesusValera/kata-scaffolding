@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 namespace Kata;
 
-final class PasswordValidator
+final class Example
 {
-    public function validate(): bool
+    public function method(): bool
     {
         return true;
     }

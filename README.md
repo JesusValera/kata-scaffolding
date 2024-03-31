@@ -1,33 +1,22 @@
-# Password Validator
+# Kata Repository
 
-Write a program that validates if a password is valid applying TDD.
+In this project you will be able to find different katas to practice your programming skills. Each kata has a README file with the instructions to follow.
 
-## Rules:
+To switch between katas, you can use the `git checkout` command followed by the name of the branch you want to switch to.
 
-Your function should comply with the following additional rules:
-- Have more than 8 and less than 16 characters
-- Contains a uppercase and a lowercase letter
-- Contains a number and an underscore
+## Available Katas
+- Password Validator: `git checkout password-validator`
 
-### Requirements
 
-- We want a method that answers if the password is valid or not
-- We don’t want to know the reason when the password is not valid
+## Programming languages
 
-```php
-interface PasswordValidator
-{
-    public function validate(string $password): bool;
-}
-```
-
-## PHP
+### PHP
 
 1. Install [composer](https://getcomposer.org/) `curl -sS https://getcomposer.org/installer | php`
 2. `composer install`
 3. `vendor/bin/phpunit` o `composer test`
 
-## Typescript
+### Typescript
 
 1. Install [Node](http://nodejs.org/)
 2. Install NVM (Node Version Manager) [nvm for Linux/macOS](https://github.com/nvm-sh/nvm#installing-and-updating) or [nvm for Windows](https://github.com/coreybutler/nvm-windows#installation--upgrades)
@@ -36,7 +25,7 @@ interface PasswordValidator
 5. `npm install` or `yarn install`
 6. `npm test` or `yarn test`
 
-## Javascript
+### Javascript
 
 1. Install [Node](http://nodejs.org/)
 2. `npm install`
